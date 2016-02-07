@@ -1,0 +1,40 @@
+{
+  "name": "@baldercm/blackjack",
+  "version": "0.1.0",
+  "description": "Simple BlackJack game",
+  "main": "index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node index.js",
+    "test": "make test",
+    "coverage": "make coverage"
+  },
+  "dependencies": {
+    "bluebird": "3.2.1",
+    "inquirer": "0.11.4",
+    "mongoose": "4.4.1",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "5.2.0",
+    "coveralls": "2.11.6",
+    "istanbul": "0.4.2",
+    "jscs": "2.9.0",
+    "jshint": "2.9.1",
+    "mocha": "2.4.5",
+    "sinon": "1.17.3",
+    "sinon-chai": "2.8.0",
+    "supertest": "1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldercm/blackjack.git"
+  },
+  "author": {
+    "name": "Bálder Carraté",
+    "email": "baldercm@gmail.com"
+  },
+  "contributors": []
+}

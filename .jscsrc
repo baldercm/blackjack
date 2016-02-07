@@ -1,0 +1,11 @@
+{
+  "preset": "node-style-guide",
+  "requireCapitalizedComments": null,
+  "maximumLineLength": 120,
+  "requireTrailingComma": null,
+  "disallowSemicolons": true,
+  "disallowSpaceAfterObjectKeys": "ignoreMultiLine",
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "requirePaddingNewLinesAfterBlocks": null,
+  "excludeFiles": ["node_modules/**", "coverage/**", "report/**"]
+}

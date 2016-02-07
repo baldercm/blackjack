@@ -1,0 +1,6 @@
+--recursive
+--ui bdd
+--reporter spec
+--check-leaks
+--timeout 6000
+--growl
